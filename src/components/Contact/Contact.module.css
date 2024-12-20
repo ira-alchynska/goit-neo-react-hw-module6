@@ -1,0 +1,58 @@
+.contact {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #ffffff;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.contactDetails {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.contactWrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+p {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.icon {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+.contactButton {
+    margin-left: 1rem;
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button {
+
+    font-size: 0.9rem;
+    color: #fff;
+    background-color: #ff6b6b;
+    border: none;
+    padding: 0.4rem 0.8rem;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff4c4c;
+}
